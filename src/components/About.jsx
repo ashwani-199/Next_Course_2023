@@ -23,7 +23,7 @@ const infoData = [
   },
   {
     icon: <MailIcon size={20} />,
-    text: "youremail@gmail.com",
+    text: "technogyan375@gmail.com",
   },
   {
     icon: <Calendar size={20} />,
@@ -51,11 +51,6 @@ const qualificationData = [
         university: "Angel's Academy Sen. Sec. School",
         qualification: "Intermediate (Science)",
         years: "2014 - 2016",
-      },
-      {
-        university: "Angel's Academy Sen. Sec. School",
-        qualification: "High School",
-        years: "2012 - 2014",
       },
     ],
   },
@@ -182,7 +177,7 @@ const About = () => {
                     <h3 className="h3 mb-8 text-center xl:text-left">
                       My Awesome Journey
                     </h3>
-                    <div className="grid nd:grid-cols-2 gap-y-8">
+                    <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       <div className="flex flex-col gap-y-6">
                         <div className="flex gap-x-4 items-center text-[22px] text-primary">
                           <Briefcase />
@@ -257,7 +252,9 @@ const About = () => {
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-8">What I Use Everyday</h3>
                     <div className="mb-16">
-                      <h4 className="text-xl font-semibold mb-2 text-primary">Skills</h4>
+                      <h4 className="text-xl font-semibold mb-2 text-primary">
+                        Skills
+                      </h4>
                       <div className="border-b border-border mb-4"></div>
                       <div>
                         {getData(skillData, "skills").data.map(
